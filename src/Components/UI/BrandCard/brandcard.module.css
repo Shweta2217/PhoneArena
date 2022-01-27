@@ -1,0 +1,47 @@
+.brandcard {
+    height: 140px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+}
+
+.brandcard:hover {
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.5);
+}
+
+.brandname {
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    margin-left: 25px;
+}
+
+.brandimage {
+        margin-left: 20px;
+        border-radius: 5px;
+        width: 200px;
+        height: 70px;
+}
+
+
+/* Mobile Version */
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .brandimage {
+        width: 180px;
+        height: 70px;
+    }
+
+
+.brandname {
+    display: none;
+}
+
+.brandcard {
+   justify-content: center;
+}
+}

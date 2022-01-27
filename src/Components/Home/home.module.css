@@ -1,0 +1,11 @@
+.brandContainer {
+    padding: 20px;
+    min-height: 300px;
+    margin: 10px;
+}
+
+.brandheading {
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding-left: 35px;
+}

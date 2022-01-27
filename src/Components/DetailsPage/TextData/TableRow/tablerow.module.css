@@ -1,0 +1,42 @@
+.data:nth-child(even) {
+        background-color: #dddddd;
+        padding: 10px;
+}
+
+.data td {
+    padding: 10px;
+}
+
+.dataheader {
+    font-weight: bold;
+   min-width: 200px;
+}
+
+.datadetail {
+min-width: 400px;
+}
+
+
+
+/* Mobile Version */
+@media screen and (min-width: 300px) and (max-width: 500px){
+.datadetail {
+    min-width: 220px;
+    }
+
+.dataheader {
+       min-width: 30px;
+}
+}
+
+
+/* Tabs or Small Laptop Display */
+@media screen and (min-width: 500px) and (max-width: 700px){
+.datadetail {
+    min-width: 400px;
+    }
+
+.dataheader {
+       min-width: 80px;
+}
+}

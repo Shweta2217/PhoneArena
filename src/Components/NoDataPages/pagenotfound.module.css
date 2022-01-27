@@ -1,0 +1,12 @@
+.pagenotfound {
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagenotfoundheading {
+    font-family: sans-serif;
+    font-size: 4rem;
+}

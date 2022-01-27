@@ -1,0 +1,31 @@
+.devicetextdata {
+    box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.2);
+    width: 800px;
+    min-height: 200px;
+    margin-top: 5px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.texttable {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+
+/* Mobile Version */
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .devicetextdata {
+        width: 340px;
+    }
+}
+
+/* Tabs or Small Laptop Display */
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .devicetextdata {
+        width: 520px;
+    }
+}

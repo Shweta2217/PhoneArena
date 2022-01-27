@@ -1,0 +1,51 @@
+.itemConatainer {
+    padding: 20px;
+    border-radius: 5px;
+    width: 600px;
+    min-height: 140px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+}
+
+.itemConatainer:hover {
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.5);
+}
+
+.deviceimg {
+    border-radius: 5px;
+    height: 120px;
+    width: 60px;
+}
+
+.devicename {
+ font-family: sans-serif;
+ font-size: 1.5rem;
+ margin-left: 15px;
+}
+
+
+/* Mobile Version */
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .itemConatainer {
+        width: 280px;
+        min-height: 120px;
+    }
+
+    .devicename {
+        font-size: 1.2rem;
+       }
+}
+
+/* Tabs or Small Laptop Display */
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .itemConatainer {
+        width: 480px;
+        min-height: 140px;
+    }
+}
