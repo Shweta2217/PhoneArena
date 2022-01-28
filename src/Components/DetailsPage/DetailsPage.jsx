@@ -10,7 +10,7 @@ import Loading from '../Loading/Loading';
 
 export default function DetailsPage() {
 
-    //for string device data
+    //for storing device data
     const [deviceData, setDeviceData] = useState({});
 
     //loading state

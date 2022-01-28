@@ -15,12 +15,9 @@ export default function DeviceList() {
    //loading state
    const [loading, setLoading] = useState(false)
 
-  //useHistory and useParams are react hooks
-  //for navigation and getting the dynamic params
-  const param = useParams();
-
-  //get the dynamic params
-  const {SearchData} = param;
+   
+   //get the dynamic params
+  const  {SearchData} = useParams();
 
   useEffect(() => {
 

@@ -39,6 +39,7 @@ export default function TextData(props) {
 
   //transforming a object into array
   const deviceDataArray = Object.entries(mappedObject);
+  console.log(deviceDataArray);
 
 
   return <div className={css.devicetextdata}>
@@ -48,6 +49,7 @@ export default function TextData(props) {
         {/* mapping the textual data */}
         {
             deviceDataArray.map(item => {
+              // console.log(item[0]);
                   return <TableRow key={item[0]} header={item[0]} data={item[1]} />
             })
         }
