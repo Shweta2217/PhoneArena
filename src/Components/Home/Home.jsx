@@ -40,12 +40,11 @@ export default function Home() {
   return (
 <>
     <Search />
-    <h3 className={css.brandheading}>Mobile Brands</h3>
+    <h3 className={css.brandheading}>Popular Brands</h3>
     {loading ? <Loading /> :
   (<div className={css.brandContainer}>
   {
     allbrands.map(oneItem => {
-      console.log(oneItem);
       return (<Link to={`/list/${oneItem.id}`} key={oneItem.id} className='link'>
               <BrandCard {...oneItem} />
               </Link>);

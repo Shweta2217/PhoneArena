@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import css from './search.module.css';
 import { useHistory } from 'react-router';
+import {FiSearch} from 'react-icons/fi';
+
 
 export default function Search() {
 
@@ -23,6 +25,6 @@ export default function Search() {
 
   return <div className={css.searchcontainer}>
         <input type='text' className={css.searchinput} placeholder='Search Device' onChange={onInput} />
-        <button className={css.searchbtn} onClick={onSearch}>Search</button>
+        <button className={css.searchbtn} onClick={onSearch}><FiSearch /></button>
   </div>;
 }

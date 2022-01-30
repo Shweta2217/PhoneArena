@@ -39,9 +39,6 @@ export default function TextData(props) {
 
   //transforming a object into array
   const deviceDataArray = Object.entries(mappedObject);
-  console.log(deviceDataArray);
-
-
   return <div className={css.devicetextdata}>
         <table className={css.texttable}>
         <tbody>

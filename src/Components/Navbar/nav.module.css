@@ -2,7 +2,7 @@
 .navbar {
     width: auto;
     height: 56px;
-    background-color: rgba(0,0,0,0.8);
+    background-color: #1572A1;
     display: flex;
     align-items: center;
 }
@@ -10,5 +10,5 @@
 .logo {
     font-family: sans-serif;
     margin-left: 10px;
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
 }

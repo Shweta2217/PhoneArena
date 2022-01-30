@@ -1,0 +1,14 @@
+
+.footer {
+    height: 56px;
+    background-color: #1572a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+  }
+  
+  .footerheading {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  }

@@ -9,7 +9,6 @@ import DetailsPage from './Components/DetailsPage/DetailsPage';
 import PageNotFound from './Components/NoDataPages/PageNotFound';
 import Footer from './Components/Footer/Footer';
 
-
 function App() {
   return (<>
    <BrowserRouter>
@@ -19,7 +18,7 @@ function App() {
        <Switch>
        <Route exact path='/'><Home /></Route>
        <Route path="/list/:SearchData"><DeviceList /></Route>
-        <Route path="/device/:deviceId"><DetailsPage /></Route> 
+        <Route exect path="/device/:deviceId"><DetailsPage /></Route> 
         <Route path="*"><PageNotFound /></Route>
         </Switch>
       <Footer />

@@ -2,10 +2,16 @@
     padding: 20px;
     min-height: 300px;
     margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 
 .brandheading {
     font-family: sans-serif;
+    color: #1572a1;
     font-size: 2rem;
+    padding-top: 33px;
     padding-left: 35px;
 }

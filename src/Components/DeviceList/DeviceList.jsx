@@ -43,10 +43,10 @@ export default function DeviceList() {
   }, [SearchData]);
 
 
-  return (<div className={css.list}>
+  return (<div className={css.listSection}>
       {/* mapping the search result */}
       { loading ? <Loading /> :
-      (
+      <div className={css.listContainer}>{
         result.map((device) => {
           return (
             <Link to={`/device/${device.id}`} key={device.id} className='link'>
@@ -54,6 +54,7 @@ export default function DeviceList() {
              </Link>
           )
         })
-      ) }
+      }
+       </div>}
   </div>);
 }

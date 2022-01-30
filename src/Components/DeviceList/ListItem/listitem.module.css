@@ -1,13 +1,13 @@
 .itemConatainer {
     padding: 20px;
     border-radius: 5px;
-    width: 600px;
+    width: 400px;
     min-height: 140px;
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin-top: 5px;
+    margin: 10px;
     transition-property: all;
     transition-duration: 150ms;
     transition-timing-function: linear;
@@ -19,13 +19,16 @@
 
 .deviceimg {
     border-radius: 5px;
-    height: 120px;
-    width: 60px;
+    padding: 20px;
+    background-color: #d9d5d5;
+    height: 150px;
+    width: 80px;
 }
 
 .devicename {
  font-family: sans-serif;
- font-size: 1.5rem;
+ font-size: 1.8rem;
+ color: #1572a1;
  margin-left: 15px;
 }
 

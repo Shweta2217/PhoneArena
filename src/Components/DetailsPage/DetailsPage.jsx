@@ -36,7 +36,7 @@ export default function DetailsPage() {
         });
 
     }, [deviceId]);
-
+    console.log(deviceData["buy-link"]);
   return (
     <>
     {loading ? <Loading /> :
@@ -50,8 +50,8 @@ export default function DetailsPage() {
             <TextData device={deviceData} />
 
             <div className={css.buttons}>
-              <a rel="noreferrer" href={deviceData["buy-link"]} className={css.buylink + " " + css.shared} target='_blank'>Buy</a>
-              <a rel="noreferrer" href={deviceData["Review-link"]} className={css.videolink + " " + css.shared} target='_blank'>Watch Review</a>
+                <button className={`${css.btn} ${css.buy}`}> <a rel="noreferrer" href={deviceData["buy-link"]} className={css.a} target='_blank'>Buy</a> </button>
+                <button className={`${css.btn} ${css.review} `}><a rel="noreferrer" href={deviceData["Review-link"]} className={css.a} target='_blank'>Phone Review</a></button>
             </div>
         </div>)}
         </>  

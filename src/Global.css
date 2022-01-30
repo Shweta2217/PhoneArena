@@ -8,17 +8,3 @@
   text-decoration: none;
   color: rgba(0,0,0,0.8);
 }
-
-.footer {
-  height: 56px;
-  background-color: rgba(0,0,0,0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.footerheading {
-font-size: 1.2rem;
-font-family: sans-serif;
-}

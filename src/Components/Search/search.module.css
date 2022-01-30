@@ -3,7 +3,7 @@
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .searchinput {
@@ -12,7 +12,8 @@
     width: 50%;
     outline: none;
     border-radius: 5px;
-    border: 1px solid rgba(0,0,0,0.8);
+    border: 1px solid #1572A1;
+    color: #1572A1;
     padding: 5px;
     box-sizing: border-box;
     font-size: 1rem;
@@ -27,14 +28,17 @@
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
-    background: #d93434;
+    background: #1572A1;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin: 5px;
   }
   
   .searchbtn:hover {
-    background: #d93440;
+    background: #1572A1 ;
+    color: white;
+    font-size: 30px;
+    padding: 5px 15px 5px 15px;
     text-decoration: none;
   }
 
